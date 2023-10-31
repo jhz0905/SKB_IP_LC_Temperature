@@ -2,8 +2,6 @@ import os
 import re
 from openpyxl import load_workbook
 
-##### test #####
-
 print("### Wait.. Inspection Ongoing ###")
 nowdir = os.getcwd()
 logdir = "\log"

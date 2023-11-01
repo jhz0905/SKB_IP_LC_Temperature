@@ -6,4 +6,28 @@
 Router 에서 version 정보와 LC 온도 관련 로그들을 수집하여 .TXT 파일로 저장하고,
 해당 .TXT 파일을 Parsing 하여 Excel 파일에 작성하는 프로그램 입니다.
 
+수집 필요한 Command
+
+C4506
+ter len 0
+show version
+show inventory
+show module
+show environment temperature
+
+C6509
+ter len 0
+show version
+show inventory
+show module
+show environment temperature
+show environment alarm thresholds
+
+ASR9K
+ter len 0
+show version brief
+admin show plat
+show environment temperatures
+
+
 문의 : jhz0905@naver.com
